@@ -157,6 +157,7 @@ section{
 #profile{
     display: flex;
     justify-content: center;
+    align-items: center;
     gap: 5rem;
     height: 90vh;
 }
@@ -203,7 +204,7 @@ section{
 
 .section_text_p3{
     font-size: 14px;
-    margin-bottom: 1rem;
+    /* margin-bottom: 1rem; */
 }
 
 .title{
@@ -383,6 +384,60 @@ section{
     .section_pic-container{
         height: 60vw;
     }
+    .profile-pic{
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+    }
 }
 
+@media screen and (max-width: 400px) {
+    .section_pic-container{
+        height: 55vw;
+    }
+    .profile-pic{
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+    }
+    .section_text_p2{
+        font-size: 1.5rem;
+    }
+    .section_text_p3{
+        font-size: 12px;
+    }
+}
+@media screen and (max-width: 350px) {
+    .section_pic-container{
+        height: 50vw;
+    }
+    .section_text_p2{
+        font-size: 1.25rem;
+    }
+}
 
+@media screen and (max-width: 300px) {
+    .section_pic-container{
+        height: 45vw;
+    }
+    .section_text_p2{
+        font-size: 1.1rem;
+    }
+}
+
+@media screen and (max-width: 250px) {
+    .section_pic-container{
+        height: 40vw;
+    }
+    .section_text_p2{
+        font-size: 1rem;
+    }
+}
+@media screen and (max-width: 200px) {
+    .section_pic-container{
+        height: 35vw;
+    }
+    .section_text_p2{
+        font-size: 0.9rem;
+    }
+}
