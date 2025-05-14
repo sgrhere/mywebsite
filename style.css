@@ -420,6 +420,11 @@ section{
     .section_pic-container{
         height: 45vw;
     }
+    .profile-pic{
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+    }
     .section_text_p2{
         font-size: 1.1rem;
     }
@@ -429,6 +434,11 @@ section{
     .section_pic-container{
         height: 40vw;
     }
+    .profile-pic{
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+    }
     .section_text_p2{
         font-size: 1rem;
     }
@@ -436,6 +446,11 @@ section{
 @media screen and (max-width: 200px) {
     .section_pic-container{
         height: 35vw;
+    }
+    .profile-pic{
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
     }
     .section_text_p2{
         font-size: 0.9rem;
